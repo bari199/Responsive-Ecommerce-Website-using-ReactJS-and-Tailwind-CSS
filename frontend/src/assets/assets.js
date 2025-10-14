@@ -49,6 +49,7 @@ export const HeroData = [
     img: Image1,
     subtitle: "Beats Solo",
     title: "Wireless",
+    title2: "Headphone",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, asperiores nam voluptatum, laborum provident saepe ea repudiandae quos voluptate, quidem facilis sequi? Suscipit, dolor explicabo eligendi natus nihil eum eaque.",
   },
@@ -57,6 +58,7 @@ export const HeroData = [
     img: Image2,
     subtitle: "Beats Solo",
     title: "Wireless",
+    title2: "Virtual",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, asperiores nam voluptatum, laborum provident saepe ea repudiandae quos voluptate, quidem facilis sequi? Suscipit, dolor explicabo eligendi natus nihil eum eaque.",
   },
@@ -64,7 +66,8 @@ export const HeroData = [
     id: 3,
     img: Image3,
     subtitle: "Beats Solo",
-    title: "Wireless",
+    title: "Branded",
+    title2: "Laptop",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, asperiores nam voluptatum, laborum provident saepe ea repudiandae quos voluptate, quidem facilis sequi? Suscipit, dolor explicabo eligendi natus nihil eum eaque.",
   },
