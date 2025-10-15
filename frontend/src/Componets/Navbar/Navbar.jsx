@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuLinks, DropdownLinks } from "../../assets/assets";
+import { MenuLinks, DropdownLinks } from "../../assets/assets.jsx";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";

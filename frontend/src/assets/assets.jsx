@@ -1,6 +1,9 @@
 import Image1 from "../assets/hero/headphone.png";
 import Image2 from "../assets/category/vr.png";
 import Image3 from "../assets/category/macbook.png";
+import { FaCarSide } from "react-icons/fa";
+import { FaWallet } from "react-icons/fa";
+import { FaHeadphonesAlt } from "react-icons/fa";
 
 export const MenuLinks = [
   {
@@ -70,5 +73,32 @@ export const HeroData = [
     title2: "Laptop",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, asperiores nam voluptatum, laborum provident saepe ea repudiandae quos voluptate, quidem facilis sequi? Suscipit, dolor explicabo eligendi natus nihil eum eaque.",
+  },
+];
+
+export const ServicesData = [
+  {
+    id: 1,
+    icon: <FaCarSide className="text-4xl md:text-5xl text-primary" />,
+    title: "Free Shipping",
+    description: "Free shipping On All US Order",
+  },
+  {
+    id: 2,
+    icon: <FaHeadphonesAlt className="text-4xl md:text-5xl text-primary" />,
+    title: "Safe Money",
+    description: "30 days Money Back Guarantee",
+  },
+  {
+    id: 3,
+    icon: <FaWallet className="text-4xl md:text-5xl text-primary" />,
+    title: "Secure Payment",
+    description: "All Payment are Secured",
+  },
+  {
+    id: 4,
+    icon: <FaHeadphonesAlt className="text-4xl md:text-5xl" />,
+    title: "Online Support 24/7",
+    description: "Technical Support 24/7",
   },
 ];

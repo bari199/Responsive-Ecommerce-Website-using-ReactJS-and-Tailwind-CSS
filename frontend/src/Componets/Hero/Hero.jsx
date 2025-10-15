@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroData } from "../../assets/assets";
+import { HeroData } from "../../assets/assets.jsx";
 import Button from "../Shared/Button";
 import Slider from "react-slick";
 
