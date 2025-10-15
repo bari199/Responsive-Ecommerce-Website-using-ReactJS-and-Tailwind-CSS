@@ -54,6 +54,7 @@ const App = () => {
       <Blog />
       <Partners />
       <Footer />
+      <Popup />
     </div>
   );
 };
