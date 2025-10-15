@@ -5,6 +5,15 @@ import { FaCarSide } from "react-icons/fa";
 import { FaWallet } from "react-icons/fa";
 import { FaHeadphonesAlt } from "react-icons/fa";
 
+import Img1 from "../assets/product/p-1.jpg";
+import Img2 from "../assets/product/p-2.jpg";
+import Img3 from "../assets/product/p-3.jpg";
+import Img4 from "../assets/product/p-4.jpg";
+import Img5 from "../assets/product/p-5.jpg";
+import Img6 from "../assets/product/p-6.jpg";
+import Img7 from "../assets/product/p-7.jpg";
+import Img8 from "../assets/product/p-8.jpg";
+
 export const MenuLinks = [
   {
     id: 1,
@@ -100,5 +109,64 @@ export const ServicesData = [
     icon: <FaHeadphonesAlt className="text-4xl md:text-5xl" />,
     title: "Online Support 24/7",
     description: "Technical Support 24/7",
+  },
+];
+
+export const ProductData = [
+  {
+    id: 1,
+    img: Img1,
+    title: "Boat Headephone",
+    price: "120",
+    aosDelay: "0",
+  },
+  {
+    id: 2,
+    img: Img2,
+    title: "Rockey Mountain",
+    price: "420",
+    aosDelay: "200",
+  },
+  {
+    id: 3,
+    img: Img3,
+    title: "Goggles",
+    price: "320",
+    aosDelay: "400",
+  },
+  {
+    id: 4,
+    img: Img4,
+    title: "Printed",
+    price: "220",
+    aosDelay: "600",
+  },
+  {
+    id: 5,
+    img: Img5,
+    title: "Printed",
+    price: "220",
+    aosDelay: "600",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Printed",
+    price: "220",
+    aosDelay: "600",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "Printed",
+    price: "220",
+    aosDelay: "600",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Printed",
+    price: "220",
+    aosDelay: "600",
   },
 ];
