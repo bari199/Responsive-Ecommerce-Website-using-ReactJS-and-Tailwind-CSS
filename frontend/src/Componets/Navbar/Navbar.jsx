@@ -4,7 +4,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
   return (
     <div
       className="bg-white dark:bg-gray-900 dark:text-white
@@ -74,7 +74,7 @@ const Navbar = () => {
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
             {/* Order-button section*/}
-            <button className="relative p-3">
+            <button className="relative p-3" onClick={handleOrderPopup}>
               <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400" />
               <div className="w-4 h-4 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items justify-center text-xs">
                 4

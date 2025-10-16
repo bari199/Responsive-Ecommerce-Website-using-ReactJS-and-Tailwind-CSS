@@ -3,7 +3,7 @@ import { HeroData } from "../../assets/assets.jsx";
 import Button from "../Shared/Button";
 import Slider from "react-slick";
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -41,6 +41,7 @@ const Hero = () => {
                         text="Shop By Category"
                         bgColor="bg-primary"
                         textColor="text-white"
+                        handleOrderPopup={handleOrderPopup}
                       />
                     </div>
                   </div>

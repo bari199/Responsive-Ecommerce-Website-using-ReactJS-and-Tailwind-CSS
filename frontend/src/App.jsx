@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Navbar from "./Componets/Navbar/Navbar";
 import Hero from "./Componets/Hero/Hero";
 import Category from "./Componets/Category/Category";
@@ -11,6 +11,7 @@ import headphone from "./assets/hero/headphone.png";
 import Products from "./Componets/Products/Products";
 import Partners from "./Componets/Partners/Partners.jsx";
 import Footer from "./Componets/Footer/Footer";
+import Popup from "./Componets/Popup/Popup.jsx";
 
 export const BannerData = [
   {
@@ -41,9 +42,16 @@ export const BannerData2 = [
 ];
 
 const App = () => {
+
+  const [orderPopup, setOrderPopup] = useState(false);
+
+  const handleOrderPopup=()=>{
+    setOrderPopup(!orderPopup);
+  };
+
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-      <Navbar />
+      <Navbar handleOrderPopup={handleOrderPopup} />
       <Hero />
       <Category />
       <Category2 />
@@ -54,7 +62,7 @@ const App = () => {
       <Blog />
       <Partners />
       <Footer />
-      <Popup />
+      <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
     </div>
   );
 };
