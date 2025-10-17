@@ -8,7 +8,7 @@ const ProductCard = ({ data }) => {
         {/* card section  */}
         {data.map((data) => (
           <div className="group" key={data.id}>
-            <div className="relative space-y-3 overflow-hidden">
+            <div data-aos="fade-up" data-aos-delay={data.aosDelay} className="relative space-y-3 overflow-hidden">
               <img
                 src={data.img}
                 alt={data.title}

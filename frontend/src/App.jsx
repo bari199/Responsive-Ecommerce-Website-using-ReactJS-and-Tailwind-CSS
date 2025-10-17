@@ -12,6 +12,8 @@ import Products from "./Componets/Products/Products";
 import Partners from "./Componets/Partners/Partners.jsx";
 import Footer from "./Componets/Footer/Footer";
 import Popup from "./Componets/Popup/Popup.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const BannerData = [
   {
@@ -48,6 +50,18 @@ const App = () => {
   const handleOrderPopup=()=>{
     setOrderPopup(!orderPopup);
   };
+
+  React.useEffect(()=>{
+    AOS.init(
+      {
+        duration:2000,
+        easing:"ease-in-sine",
+        once:true,
+        delay:100,
+        offset:100,
+    }),
+    AOS.refresh();
+  },[]);
 
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">

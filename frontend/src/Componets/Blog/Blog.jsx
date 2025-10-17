@@ -12,6 +12,7 @@ const BlogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     published: "Jan 20, 2024",
     image: Img1,
+    aosDelay:"0",
   },
   {
     title: "How to choose perfect gadget",
@@ -19,6 +20,7 @@ const BlogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     published: "Jan 20 ,2024 by Dilshad",
     image: Img2,
+    aosDelay:"200"
   },
   {
     title: "How to choose perfect VR headset",
@@ -26,6 +28,7 @@ const BlogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     published: "Jan 20 ,2024 by Dilshad",
     image: Img3,
+    aosDelay:"400"
   },
 ];
 
@@ -39,7 +42,7 @@ const Blog = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7">
           {/* Blog Card  */}
           {BlogData.map((data) => (
-            <div key={data.title} className="bg-white dark:bg-gray-900">
+            <div data-aos="fade-up" data-aos-delay={data.aosDelay} key={data.title} className="bg-white dark:bg-gray-900">
               <div className="overflow-hidden rounded-2xl mb-2">
                 <div>{/* image section  */}</div>
                 <div>
