@@ -28,7 +28,12 @@ const Category = () => {
             <img
               src={Image1}
               alt=""
-              className="w-[290px]  absolute top-1/2 -translate-y-1/2 -right-0"
+              className=" w-[120px]         
+                sm:w-[180px]    
+                md:w-[220px]      
+                lg:w-[250px]      
+                absolute top-1/2 -translate-y-1/2 right-0
+                transition-all duration-300"
             />
           </div>
 

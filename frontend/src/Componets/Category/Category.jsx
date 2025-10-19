@@ -68,7 +68,12 @@ const Category = () => {
             <img
               src={Image3}
               alt=""
-              className="w-[240px] absolute top-1/2 -translate-y-1/2 -right-0"
+              className="w-[200px]         
+                sm:w-[190px]    
+                md:w-[240px]      
+                lg:w-[250px]      
+                absolute top-1/2 -translate-y-1/2 right-0
+                transition-all duration-300"
             />
           </div>
         </div>
