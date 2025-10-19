@@ -36,7 +36,9 @@ const Hero = ({handleOrderPopup}) => {
                       {data.title}
                     </h1>
                     <h1 data-aos="zoom-out" data-aos-duration="500"
-                    data-aos-once="true" className="text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md text-[100px] xl:text-[150px] font-bold">
+                    data-aos-once="true" className="
+                    text-5xl uppercase text-white
+                     dark:text-white/5 sm:text-[40px] md text-[100px] xl:text-[150px] font-bold">
                       {data.title2}
                     </h1>
                     <div data-aos="fade-up" data-aos-offset="0" data-aos-duration="500" data-aos-delay="300"
